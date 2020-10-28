@@ -1,0 +1,203 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6{
+}
+.flex{
+	display: flex;
+	flex-wrap: wrap;
+	flex: 0 1 auto;
+}
+ul li{
+	list-style: none;
+}
+ul li a{
+	text-decoration: none;
+}
+header{
+	padding: 20px 0;
+}
+header .container{
+	display: flex;
+	flex-wrap: wrap;
+	flex:0 1 auto;
+	align-items: center;
+}
+.container{
+	width: calc(100% - 100px);
+	margin: auto;
+}
+header .title{
+	font-family: 'Syne Tactile', cursive;
+	width: 30%;
+	font-weight: 400;
+}
+header .title a{
+	text-decoration: none;
+	color: black;
+}
+header .title h2{
+
+}
+header .main_menu{
+	width: 70%;
+	justify-content: flex-end;
+}
+header .main_menu ul{
+}
+header .main_menu ul li{
+	padding: 10px 30px;
+}
+header .main_menu ul li:hover{
+	border-top-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+	transition: all .4s;
+	background:#3e9f3ed4;;
+}
+header .main_menu ul li a{
+	text-transform: uppercase;
+	color: #00000075;
+	cursor: pointer;
+	font-size: 16px;
+}
+header .main_menu ul li a:hover{
+	color: #ffffffcf;
+	transition: all .4s;
+}
+section.wellcome{
+
+}
+.wellcome .hello_face{
+
+}
+.wellcome .images_wellcome{
+
+}
+img{
+	max-width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+section.my_portfolio{
+
+}
+section.my_portfolio h5{
+
+font-size: 16px;
+
+text-transform: capitalize;
+
+color: #471623;
+
+padding-bottom: 10px;
+}
+section.my_portfolio h1{
+
+text-transform: capitalize;
+
+color: #f0fff1;
+}
+section.my_portfolio .container{
+	background-color: #4d37d3ab;
+	text-align: center;
+	padding: 20px 0;
+	font-family: monospace;
+}
+section.portfolio_items{
+
+}
+section.portfolio_items .container{
+	
+}
+.padd{
+
+background: #574e4636;
+}
+section.portfolio_items .portfolio_box{padding: 10px;}
+section.portfolio_items .portfolio_box .demo_image{
+	width: 33.33%;
+	border-radius: 15px;
+	overflow: hidden;
+	background: #2dbc77;
+	transition:all .4s;
+}
+.demo_image img {
+	padding: 10px;
+	border-radius: 30px;
+}
+.portfolio_box a{
+	text-decoration: none;
+	color: #ffffffcf;
+}
+section.portfolio_items .portfolio_box .demo_image:hover{
+	background-color: #00000096;
+	color: red;
+	transition: all .4s;
+	 transform: scale(.9);
+}
+.demo_image h2{
+	text-align: center;
+	text-transform: capitalize;
+	margin-top: -15px;
+}
+.demo_image:hover {
+    background: #33c668d9;
+    transition: all .4s;
+    transform: scale(.9);
+}
+.demo_image {
+    background: #343434f0;
+    border-radius: 10px;
+}
+.portfolio_box {
+    width: 33.33%;
+    padding: 10px;
+}
+footer{
+	padding: 40px 0;
+	background: #F0F0F0;
+}
+footer .container{
+
+}
+footer .footer_menu{
+    width: 40%;
+}
+footer .footer_menu ul{
+	
+text-transform: capitalize;
+	
+font-size: 20px;
+}
+footer .footer_menu ul li:first-child{
+	padding-right: 40px;
+}
+footer .footer_menu ul li a{
+	color: #00000094;
+}
+footer .footer_menu ul li a:hover{
+	color: black;
+	transition: all .4s;
+}
+footer .footer_social_icon{
+	width: 60%;
+	justify-content: flex-end;
+}
+footer .footer_social_icon ul{
+	
+}
+footer .footer_social_icon ul li{
+	padding: 0 6px;
+	font-size: 20px;
+	text-transform: capitalize;
+	color: #0000008a;
+}
+footer .footer_social_icon ul li a{
+	color: red;
+}
+footer .footer_social_icon ul li a:hover{
+	color: #dddfe6;
+	transition: all .3s;
+}
